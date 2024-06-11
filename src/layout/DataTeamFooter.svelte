@@ -10,6 +10,7 @@
         'pale'
     ]};"
 >
+    <!-- Data team text title/logo/link and email -->
     <div class="col-wide" data-analytics="footer">
         <a href="https://council.nyc.gov/data/" target="_blank">
             {#if theme == "dark"}
@@ -38,13 +39,6 @@
         </ul>
         <hr style="border-top-color: {themes[theme]['muted']}" />
         <div class="license">
-            <!-- <p style="font-family:Georgia">
-                Any opinion, findings, and conclusions or recommendations
-                expressed in this material are those of the authors and do not
-                necessarily reflect the views of the NYC Council. All errors are
-                our own.
-            </p> -->
-
             <p style="font-family:Georgia">
                 Webpage adapted from the template available <a
                     href="https://github.com/onsvisual/svelte-scrolly"
