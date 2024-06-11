@@ -13,7 +13,8 @@ Directions:
 - Open terminal window in VS Code
 - Type "npm install" in terminal to install dependencies (/node_modules folder) (may need to install "npm" first)
 - Type "npm run dev" in terminal---spits out a local link that shows the webpage as you work on it (save your work and it will update the webpage)
-- Type "npm run build" in terminal when finished with webpage, this will compile it (compiled code in /public folder)  
+- Type "npm run build" in terminal when finished with webpage, this will compile it (compiled code in /public folder)
+- Al can then make a council webpage with the compiled html code 
 
 File explanations:
 - /src/App.svelte: This is the main code file. Some example code is currently in the file
