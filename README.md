@@ -20,7 +20,7 @@ File explanations:
 - /src/App.svelte: This is the main code file. Some example code is currently in the file
 - 
 - /src/layout/Scroller.svelte: Call when making a Scrolly section, see examples in App.svelte. Probably don't need to change code in this file, see https://github.com/sveltejs/svelte-scroller for details
-- /src/layout/Table.svelte: Call when making a table. See example in App.svelte
+- /src/layout/Table.svelte: Call when making a table. See example in App.svelte. Can tweak for further customization
 - /node_modules/@onsvisual/svelte-charts/src/charts/BarChart.svelte: Call when making a bar chart, see examples in App.svelte. ONS made this file and files for other chart types (see /node_modules/@onsvisual/svelte-charts/src/charts/ folder). I tweaked this file (and builder files it calls) to change some colors and get labels to pop up in the bar charts (compare with default files to see how I did this, deleting /node_modules/ and running "npm install" in terminal will load default /node_modules/ files). Can tweak further for customization and/or learn from this and other ONS-built chart types to build additional chart types
 - /node_modules/@onsvisual/svelte-charts/src/charts/ScatterChart.svelte: Call when making a scatter chart, see example in App.svelte. Tweaked from default ScatterChart.svelte.
 - 
