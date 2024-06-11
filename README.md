@@ -1,6 +1,7 @@
 # scrollyTemplate
 
 Template borrowed from https://github.com/onsvisual/svelte-scrolly, look at documentation and demo there too for help (most code is inherited from that repository).
+NOTE: included /node_modules/ in repository because I customized some files in @onsvisual/svelte-charts/src/charts/
 
 Other helpful links:
 - https://svelte.dev/
@@ -11,8 +12,7 @@ Directions:
 - Recommend using Visual Studio Code (VS Code)
 - Clone this repository to VS Code
 - Open terminal window in VS Code
-- Type "npm install" in terminal to install dependencies (/node_modules folder) (may need to install "npm" first)
-- Type "npm run dev" in terminal---spits out a local link that shows the webpage as you work on it (save your work and it will update the webpage)
+- Type "npm run dev" in terminal (may need to download "npm")---spits out a local link that shows the webpage as you work on it (save your work and it will update the webpage)
 - Type "npm run build" in terminal when finished with webpage, this will compile it (compiled code in /public folder)
 - Al can then make a council webpage with the compiled html code 
 
@@ -21,8 +21,8 @@ File explanations:
 - 
 - /src/layout/Scroller.svelte: Call when making a Scrolly section, see examples in App.svelte. Probably don't need to change code in this file, see https://github.com/sveltejs/svelte-scroller for details
 - /src/layout/Table.svelte: Call when making a table. See example in App.svelte
-- /node_modules/@onsvisual/svelte-charts/src/charts/BarChart.svelte: Call when making a bar chart, see examples in App.svelte. ONS made this file and files for other chart types (see /node_modules/@onsvisual/svelte-charts/src/charts/ folder). Can use as-is as a function with parameters that can be set, or can tweak code within this file (and/or the lower-level functions that it calls) for additional customization. Can also learn from these ONS-built chart types to build additional chart types
-- /node_modules/@onsvisual/svelte-charts/src/charts/ScatterChart.svelte: Call when making a scatter chart, see example in App.svelte
+- /node_modules/@onsvisual/svelte-charts/src/charts/BarChart.svelte: Call when making a bar chart, see examples in App.svelte. ONS made this file and files for other chart types (see /node_modules/@onsvisual/svelte-charts/src/charts/ folder). I tweaked this file (and builder files it calls) to change some colors and get labels to pop up in the bar charts (compare with default files to see how I did this, deleting /node_modules/ and running "npm install" in terminal will load default /node_modules/ files). Can tweak further for customization and/or learn from this and other ONS-built chart types to build additional chart types
+- /node_modules/@onsvisual/svelte-charts/src/charts/ScatterChart.svelte: Call when making a scatter chart, see example in App.svelte. Tweaked from default ScatterChart.svelte.
 - 
 - /src/layout/DataTeamHeader.svelte: Makes webiste header with Data Team text title and logo and links to Data Team homepage
 - /src/layout/DataTeamFooter.svelte: Makes website footer with Data Team text title and logo, links to Data Team homepage, and provides Data Team email
