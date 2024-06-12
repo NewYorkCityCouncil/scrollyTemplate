@@ -10,7 +10,7 @@
         'pale'
     ]};"
 >
-    <!-- Data team text title/logo/link and email -->
+    <!-- Data team logo, link, and email -->
     <div class="col-wide" data-analytics="footer">
         <a href="https://council.nyc.gov/data/" target="_blank">
             {#if theme == "dark"}

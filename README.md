@@ -25,8 +25,8 @@ File explanations:
 - /node_modules/@onsvisual/svelte-charts/src/charts/BarChart.svelte: Call when making a bar chart, see examples in App.svelte. ONS made this file and files for other chart types (see /node_modules/@onsvisual/svelte-charts/src/charts/ folder). I tweaked this file (and builder files it calls) to get labels to pop up in the bar charts (compare with default files to see how I did this, deleting /node_modules/ and running "npm install" in terminal will create default /node_modules/ files). Can tweak further for customization and/or learn from this and other ONS-built chart types to build additional chart types
 - /node_modules/@onsvisual/svelte-charts/src/charts/ScatterChart.svelte: Call when making a scatter chart, see example in App.svelte. Tweaked from default ScatterChart.svelte.
 - 
-- /src/layout/DataTeamHeader.svelte: Makes webiste header with Data Team title and logo and links to Data Team homepage
-- /src/layout/DataTeamFooter.svelte: Makes website footer with Data Team title and logo, links to Data Team homepage, and provides Data Team email
+- /src/layout/DataTeamHeader.svelte: Makes website header with Data Team logo and links to Data Team homepage
+- /src/layout/DataTeamFooter.svelte: Makes website footer with Data Team logo, links to Data Team homepage, and provides Data Team email
 - /src/layout/Header.svelte: Location to put title, authors, date. Probably don't need to change code here
 - /src/layout/Filler.svelte: Differentiated section for text you want to bring attention to, e.g., intro/setup. See App.svelte for example. Probably don't need to change code here
 - /src/layout/Media.svelte: Wrapper around figures, probably don't need to change code here

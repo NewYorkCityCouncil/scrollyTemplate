@@ -13,7 +13,7 @@
         : ''}"
 >
     <div class="col-wide middle" class:center>
-        <!-- Code below place data team logo and text in the website header
+        <!-- Code below places data team logo in the website header
         and links to the data team homepage-->
         <a href="https://council.nyc.gov/data/" target="_blank">
             <picture>

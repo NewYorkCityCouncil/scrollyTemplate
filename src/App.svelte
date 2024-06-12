@@ -208,14 +208,14 @@ see https://github.com/sveltejs/svelte-scroller for further detail.
 genderGapFigIndex changes as you scroll through and this changes which part
 of figure is highlighted -->
 <Scroller threshold="1" bind:index={genderGapFigIndex} splitscreen={true}>
-	<!-- Place fixed portion of scrolly section (i.e. the figure) in
+	<!-- Fixed portion of scrolly section (i.e. the figure) goes in
 	the "background" slot -->
 	<div slot="background">
 		<figure>
 			<div class="chart-ScrollFig">
 				<!-- Example of bar chart, see 
 				/node_modules/@onsvisual/svelte-charts/src/charts/BarChart.svelte
-				for parameters you can pass in (if wish to change default value). 
+				for parameters you can pass in (if wish to change from default value). 
 				Important one for scrolly is "selected" -->
 				<BarChart
 					data={genderGapData}
@@ -238,8 +238,9 @@ of figure is highlighted -->
 		</figure>
 	</div>
 
-	<!-- Scrolling parts of scrolly section (i.e. text) goes in foreground slot -->
+	<!-- Scrolling parts of scrolly section (i.e. text) go in foreground slot -->
 	<div slot="foreground">
+		<!-- section blocks separate chunks of text in the scrolly section  -->
 		<!-- Change the index when want to change which part of figure is highlighted -->
 		<section genderGapFigIndex="1">
 			<div class="col-medium">
